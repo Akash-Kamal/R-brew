@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R BREW – Premium Coffee & Fresh Milk Vending Solutions</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #2B1D18;
+      background-color: #FFFFFF;
+    }
+    .font-serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    .accent-bg {
+      background-color: #B98552;
+    }
+    .accent-text {
+      color: #B98552;
+    }
+  </style>
+</head>
+<body class="text-[#2B1D18] antialiased bg-white selection:bg-[#B98552] selection:text-white">
+
+  <!-- TOP BAR -->
+  <div class="bg-[#2B1D18] text-[#F7F3EC] text-xs py-2 px-4 sm:px-8 border-b border-[#3b2923]">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="w-2 h-2 rounded-full bg-[#B98552] animate-pulse"></span>
+        <span class="font-medium">Commercial Coffee & Fresh Milk Tea Vending Machines</span>
+      </div>
+      <div class="flex items-center gap-6">
+        <a href="tel:+918178413159" class="hover:text-[#B98552] transition-colors font-mono font-semibold">📞 +91 81784 13159</a>
+        <span class="hidden sm:inline text-white/40">|</span>
+        <a href="mailto:admin@rosretail.co.in" class="hidden sm:inline hover:text-[#B98552] transition-colors">✉️ admin@rosretail.co.in</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-[#E9DFD1] px-4 sm:px-8 py-3 transition-all shadow-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <a href="#hero" class="flex items-center gap-3">
+        <img src="images/logo_gold.jpg" alt="R BREW Logo" class="h-10 sm:h-12 w-auto rounded-lg object-cover shadow-sm">
+        <div>
+          <span class="font-serif text-xl sm:text-2xl font-bold tracking-wide text-[#2B1D18] block leading-none">R BREW</span>
+          <span class="text-[10px] tracking-widest uppercase font-semibold text-[#B98552]">Coffee Solutions</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-[#54382B]">
+        <a href="#machines" class="hover:text-[#B98552] transition-colors">Machines</a>
+        <a href="#fresh-milk" class="hover:text-[#B98552] transition-colors">Fresh Milk Vending</a>
+        <a href="#products" class="hover:text-[#B98552] transition-colors">Products</a>
+        <a href="#solutions" class="hover:text-[#B98552] transition-colors">Solutions</a>
+        <a href="#contact" class="hover:text-[#B98552] transition-colors">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/918178413159?text=Hello%20R%20BREW,%20I%20would%20like%20to%20enquire%20about%20your%20coffee%20machines." target="_blank" class="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-[#25D366] bg-[#25D366]/10 hover:bg-[#25D366]/20 px-3.5 py-2 rounded-full transition-colors border border-[#25D366]/30">
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+        <a href="#contact" class="bg-[#B98552] hover:bg-[#a67443] text-white text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-full shadow-sm hover:shadow transition-all">
+          Enquire Now
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- HERO SECTION: Clean & Visual-First -->
+  <section id="hero" class="relative bg-gradient-to-b from-[#FAF7F2] to-white pt-10 pb-16 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto space-y-8 text-center">
+      
+      <!-- Punchy Minimal Hero Headline -->
+      <div class="max-w-3xl mx-auto space-y-4">
+        <span class="inline-block text-xs font-bold tracking-widest uppercase bg-[#B98552]/10 text-[#B98552] px-3.5 py-1 rounded-full border border-[#B98552]/20">
+          Smart Workplace Beverages
+        </span>
+        <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold text-[#2B1D18] leading-tight">
+          Your Perfect Coffee Experience Starts Here.
+        </h1>
+        <p class="text-sm sm:text-lg text-[#54382B]/80 font-normal max-w-xl mx-auto">
+          Commercial bean-to-cup machines, fresh milk tea systems, and authentic South Indian filter coffee.
+        </p>
+        <div class="flex items-center justify-center gap-4 pt-2">
+          <a href="#machines" class="bg-[#B98552] hover:bg-[#a67443] text-white text-xs sm:text-sm font-semibold px-6 py-3 rounded-full shadow-md hover:shadow-lg transition-all">
+            View Machines
+          </a>
+          <a href="#contact" class="bg-white hover:bg-[#FAF7F2] text-[#2B1D18] border border-[#E9DFD1] text-xs sm:text-sm font-semibold px-6 py-3 rounded-full transition-all">
+            Get a Quote
+          </a>
+        </div>
+      </div>
+
+      <!-- Real Machine Lineup Banner Image -->
+      <div class="relative max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-[#3b2923] bg-[#1a120f]">
+        <img src="images/hero_lineup.jpg" alt="R BREW Commercial Coffee Machines Lineup" class="w-full h-auto object-cover hover:scale-[1.01] transition-transform duration-500">
+      </div>
+
+      <!-- Quick Trust Badges -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-4 text-center">
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-sm text-[#2B1D18]">100% Fresh Milk</p>
+          <p class="text-[11px] text-[#54382B]/70">No artificial powder</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-sm text-[#2B1D18]">South Indian Blend</p>
+          <p class="text-[11px] text-[#54382B]/70">Authentic filter taste</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-sm text-[#2B1D18]">Auto-Flush System</p>
+          <p class="text-[11px] text-[#54382B]/70">Hygienic daily dispensing</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-sm text-[#2B1D18]">Digital Audit Counters</p>
+          <p class="text-[11px] text-[#54382B]/70">Accurate cup tracking</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BEVERAGE PILLARS: 3 Arches Image -->
+  <section class="py-12 px-4 sm:px-8 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <div class="rounded-3xl overflow-hidden shadow-lg border border-[#E9DFD1]">
+        <img src="images/beverage_pillars.jpg" alt="Fresh Milk Tea Vending, Tea Brewing Systems, Filter Coffee Dispensing" class="w-full h-auto object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: WHY FRESH MILK VENDING? -->
+  <section id="fresh-milk" class="py-16 px-4 sm:px-8 bg-[#FAF7F2] border-y border-[#E9DFD1]">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-12 gap-8 items-center">
+      
+      <!-- Visual Graphic Image -->
+      <div class="md:col-span-6">
+        <div class="rounded-3xl overflow-hidden shadow-xl border border-[#E9DFD1]">
+          <img src="images/why_fresh_milk.jpg" alt="Why Fresh Milk Vending Benefits" class="w-full h-auto object-cover">
+        </div>
+      </div>
+
+      <!-- Simple Bulleted Benefits -->
+      <div class="md:col-span-6 space-y-6">
+        <div class="space-y-2">
+          <span class="text-xs font-bold tracking-widest uppercase text-[#B98552]">A Smarter Way to Serve</span>
+          <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2B1D18]">
+            Why Fresh Milk Vending?
+          </h2>
+          <p class="text-xs sm:text-sm text-[#54382B]/85">
+            Deliver genuine taste, rich mouthfeel, and complete operational control.
+          </p>
+        </div>
+
+        <div class="space-y-3.5 text-xs sm:text-sm text-[#54382B]">
+          <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-white border border-[#E9DFD1]">
+            <span class="font-bold text-[#B98552] text-base">01</span>
+            <div>
+              <p class="font-bold text-[#2B1D18]">Fresh Milk-Based Beverages</p>
+              <p class="text-xs text-[#54382B]/80 pt-0.5">Richer taste and natural mouthfeel compared to conventional premix options.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-white border border-[#E9DFD1]">
+            <span class="font-bold text-[#B98552] text-base">02</span>
+            <div>
+              <p class="font-bold text-[#2B1D18]">Consistent Taste in Every Cup</p>
+              <p class="text-xs text-[#54382B]/80 pt-0.5">Standardized recipes ensure uniform aroma and sweetness across all locations.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-white border border-[#E9DFD1]">
+            <span class="font-bold text-[#B98552] text-base">03</span>
+            <div>
+              <p class="font-bold text-[#2B1D18]">Hygienic Automated Preparation</p>
+              <p class="text-xs text-[#54382B]/80 pt-0.5">Closed internal brewing chambers and automated flushing keep dispensing clean.</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-3 p-3.5 rounded-2xl bg-white border border-[#E9DFD1]">
+            <span class="font-bold text-[#B98552] text-base">04</span>
+            <div>
+              <p class="font-bold text-[#2B1D18]">Lower Operational Effort</p>
+              <p class="text-xs text-[#54382B]/80 pt-0.5">Reduces pantry staff workload, mess, and raw material wastage.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <a href="#contact" class="inline-block bg-[#2B1D18] hover:bg-[#54382B] text-white text-xs sm:text-sm font-semibold px-6 py-3 rounded-full transition-colors">
+            Request an On-Site Trial →
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION: COFFEE MACHINES & EQUIPMENT -->
+  <section id="machines" class="py-16 sm:py-24 px-4 sm:px-8 bg-white">
+    <div class="max-w-6xl mx-auto space-y-12">
+      
+      <div class="text-center max-w-xl mx-auto space-y-2">
+        <span class="text-xs font-bold tracking-widest uppercase text-[#B98552]">Equipment</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2B1D18]">
+          Commercial Coffee Machines
+        </h2>
+        <p class="text-xs sm:text-sm text-[#54382B]">
+          Built for high-volume use, push-button simplicity, and daily reliability.
+        </p>
+      </div>
+
+      <!-- Visual Machines Showcase Cards -->
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        
+        <!-- Card 1: 4 Machines Grid -->
+        <div class="bg-[#FAF7F2] rounded-3xl p-6 border border-[#E9DFD1] shadow-sm space-y-4">
+          <div class="rounded-2xl overflow-hidden border border-[#E9DFD1] bg-white">
+            <img src="images/machines_grid.jpg" alt="Commercial Coffee Machine Models" class="w-full h-auto object-cover">
+          </div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#2B1D18]">Commercial Machine Range</h3>
+            <p class="text-xs text-[#54382B]/80 pt-1">
+              Bean-to-cup systems, fresh milk tea brewing units, and heavy-duty filter coffee dispensers.
+            </p>
+          </div>
+          <div class="pt-2 flex items-center justify-between border-t border-[#E9DFD1]">
+            <span class="text-xs font-semibold text-[#B98552]">Offices • Hotels • Cafes</span>
+            <a href="#contact" class="text-xs font-bold text-[#2B1D18] hover:text-[#B98552]">Enquire Specs →</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Touchscreen Dispenser -->
+        <div class="bg-[#FAF7F2] rounded-3xl p-6 border border-[#E9DFD1] shadow-sm space-y-4">
+          <div class="rounded-2xl overflow-hidden border border-[#E9DFD1] bg-white aspect-[4/3] flex items-center justify-center p-2">
+            <img src="images/machine_touchscreen.jpg" alt="Touchscreen Digital Coffee Dispenser" class="max-h-full object-contain">
+          </div>
+          <div>
+            <h3 class="font-serif text-xl font-bold text-[#2B1D18]">Smart Touchscreen Dispenser</h3>
+            <p class="text-xs text-[#54382B]/80 pt-1">
+              One-touch selection for Espresso, Cappuccino, Latte, Kadak Chai, and Filter Coffee with digital audit counters.
+            </p>
+          </div>
+          <div class="pt-2 flex items-center justify-between border-t border-[#E9DFD1]">
+            <span class="text-xs font-semibold text-[#B98552]">Push-Button Speed</span>
+            <a href="#contact" class="text-xs font-bold text-[#2B1D18] hover:text-[#B98552]">Request Demo →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 5 Clean Machine Specs -->
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-3 pt-4 text-center">
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-xs text-[#2B1D18]">High-Capacity</p>
+          <p class="text-[11px] text-[#54382B]/70">Fast continuous flow</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-xs text-[#2B1D18]">Auto-Clean</p>
+          <p class="text-[11px] text-[#54382B]/70">Built-in flush cycle</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-xs text-[#2B1D18]">Digital Counters</p>
+          <p class="text-[11px] text-[#54382B]/70">Accurate cup auditing</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1]">
+          <p class="font-bold text-xs text-[#2B1D18]">Water Sensors</p>
+          <p class="text-[11px] text-[#54382B]/70">Real-time level alerts</p>
+        </div>
+        <div class="p-3 bg-[#FAF7F2] rounded-2xl border border-[#E9DFD1] col-span-2 md:col-span-1">
+          <p class="font-bold text-xs text-[#2B1D18]">Lockable Units</p>
+          <p class="text-[11px] text-[#54382B]/70">Secure panels</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION: PRODUCTS (Verified Images of Real Packaging) -->
+  <section id="products" class="py-16 sm:py-24 px-4 sm:px-8 bg-[#FAF7F2] border-t border-[#E9DFD1]">
+    <div class="max-w-6xl mx-auto space-y-12">
+      
+      <div class="text-center max-w-xl mx-auto space-y-2">
+        <span class="text-xs font-bold tracking-widest uppercase text-[#B98552]">Products</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2B1D18]">
+          Our Coffee & Tea Blends
+        </h2>
+        <p class="text-xs sm:text-sm text-[#54382B]">
+          Authentic South Indian filter blends, chai premixes, and instant solutions.
+        </p>
+      </div>
+
+      <!-- 2 Main Category Hero Cards -->
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <!-- Filter Coffee Trio -->
+        <div class="bg-white rounded-3xl p-6 border border-[#E9DFD1] shadow-sm flex flex-col justify-between space-y-4">
+          <div class="rounded-2xl overflow-hidden border border-[#E9DFD1]">
+            <img src="images/filter_coffee_trio.jpg" alt="Filter Coffee Gold, Platinum, Premium" class="w-full h-auto object-cover">
+          </div>
+          <div>
+            <span class="text-[11px] font-bold text-[#B98552] uppercase">Filter Coffee Lineup</span>
+            <h3 class="font-serif text-xl font-bold text-[#2B1D18] pt-1">GOLD • PLATINUM • PREMIUM</h3>
+            <p class="text-xs text-[#54382B]/80 pt-1 leading-relaxed">
+              Authentic South Indian taste with dependable aroma, rich body, and smooth milk integration.
+            </p>
+          </div>
+          <div class="pt-2 border-t border-[#E9DFD1] flex items-center justify-between">
+            <span class="text-xs text-[#54382B]/70">Commercial Packs</span>
+            <a href="#contact" class="text-xs font-bold text-[#B98552] hover:text-[#8e5e32]">Enquire Supply →</a>
+          </div>
+        </div>
+
+        <!-- Fresh Milk Tea Solutions -->
+        <div class="bg-white rounded-3xl p-6 border border-[#E9DFD1] shadow-sm flex flex-col justify-between space-y-4">
+          <div class="rounded-2xl overflow-hidden border border-[#E9DFD1]">
+            <img src="images/tea_solutions.jpg" alt="Fresh Milk Tea Solutions Packaging" class="w-full h-auto object-cover">
+          </div>
+          <div>
+            <span class="text-[11px] font-bold text-[#B98552] uppercase">Tea Solutions (100g)</span>
+            <h3 class="font-serif text-xl font-bold text-[#2B1D18] pt-1">Kadak, Masala & Elaichi Chai</h3>
+            <p class="text-xs text-[#54382B]/80 pt-1 leading-relaxed">
+              Formulated for high-frequency consumption during morning and afternoon pantry breaks.
+            </p>
+          </div>
+          <div class="pt-2 border-t border-[#E9DFD1] flex items-center justify-between">
+            <span class="text-xs text-[#54382B]/70">100g Packs</span>
+            <a href="#contact" class="text-xs font-bold text-[#B98552] hover:text-[#8e5e32]">Enquire Supply →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 3 Instant Premixes Row -->
+      <div class="grid sm:grid-cols-3 gap-6 pt-2">
+        
+        <div class="bg-white rounded-3xl p-5 border border-[#E9DFD1] shadow-sm space-y-3 text-center">
+          <div class="aspect-square rounded-2xl overflow-hidden border border-[#E9DFD1] bg-[#FAF7F2] flex items-center justify-center p-2">
+            <img src="images/premix_coffee.jpg" alt="Instant Coffee Premix Sachet" class="max-h-full object-contain">
+          </div>
+          <h4 class="font-serif text-base font-bold text-[#2B1D18]">Instant Coffee Premix</h4>
+          <p class="text-xs text-[#54382B]/80">Rich aroma and smooth taste ready in seconds.</p>
+          <a href="#contact" class="inline-block text-xs font-bold text-[#B98552] pt-1">Enquire →</a>
+        </div>
+
+        <div class="bg-white rounded-3xl p-5 border border-[#E9DFD1] shadow-sm space-y-3 text-center">
+          <div class="aspect-square rounded-2xl overflow-hidden border border-[#E9DFD1] bg-[#FAF7F2] flex items-center justify-center p-2">
+            <img src="images/premix_tea.jpg" alt="Instant Tea Premix Sachet" class="max-h-full object-contain">
+          </div>
+          <h4 class="font-serif text-base font-bold text-[#2B1D18]">Instant Tea Premix</h4>
+          <p class="text-xs text-[#54382B]/80">Refreshing elaichi chai balance for instant cups.</p>
+          <a href="#contact" class="inline-block text-xs font-bold text-[#B98552] pt-1">Enquire →</a>
+        </div>
+
+        <div class="bg-white rounded-3xl p-5 border border-[#E9DFD1] shadow-sm space-y-3 text-center">
+          <div class="aspect-square rounded-2xl overflow-hidden border border-[#E9DFD1] bg-[#FAF7F2] flex items-center justify-center p-2">
+            <img src="images/premix_soup.jpg" alt="Instant Soup Premix Sachet" class="max-h-full object-contain">
+          </div>
+          <h4 class="font-serif text-base font-bold text-[#2B1D18]">Instant Soup Premix</h4>
+          <p class="text-xs text-[#54382B]/80">Warm, comforting and savory soup for cold days.</p>
+          <a href="#contact" class="inline-block text-xs font-bold text-[#B98552] pt-1">Enquire →</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION: BUSINESS SOLUTIONS (Simple Segments) -->
+  <section id="solutions" class="py-16 sm:py-20 px-4 sm:px-8 bg-white">
+    <div class="max-w-6xl mx-auto space-y-10">
+      
+      <div class="text-center max-w-xl mx-auto space-y-2">
+        <span class="text-xs font-bold tracking-widest uppercase text-[#B98552]">Who We Serve</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#2B1D18]">
+          Solutions by Business Segment
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        
+        <div class="p-5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1] text-center space-y-2">
+          <span class="text-2xl">🏢</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18]">Corporate Offices</p>
+          <p class="text-[11px] text-[#54382B]/70">Pantry efficiency & fresh coffee breaks</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1] text-center space-y-2">
+          <span class="text-2xl">🏨</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18]">Hotels & Hospitality</p>
+          <p class="text-[11px] text-[#54382B]/70">Breakfast buffet & banquet beverages</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1] text-center space-y-2">
+          <span class="text-2xl">💻</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18]">Co-Working Hubs</p>
+          <p class="text-[11px] text-[#54382B]/70">24/7 self-service beverage bars</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1] text-center space-y-2">
+          <span class="text-2xl">🎓</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18]">Campuses & Colleges</p>
+          <p class="text-[11px] text-[#54382B]/70">Fast, affordable hot refreshment</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1] text-center space-y-2 col-span-2 md:col-span-1">
+          <span class="text-2xl">🏭</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18]">Manufacturing Plants</p>
+          <p class="text-[11px] text-[#54382B]/70">Rugged multi-shift reliability</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION: HOW IT WORKS (Simple 4-Step Process) -->
+  <section class="py-14 px-4 sm:px-8 bg-[#FAF7F2] border-y border-[#E9DFD1]">
+    <div class="max-w-6xl mx-auto space-y-8">
+      
+      <div class="text-center space-y-1">
+        <span class="text-xs font-bold tracking-widest uppercase text-[#B98552]">Simple Onboarding</span>
+        <h2 class="font-serif text-2xl sm:text-3xl font-bold text-[#2B1D18]">How It Works</h2>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+        <div class="p-4 bg-white rounded-2xl border border-[#E9DFD1]">
+          <span class="font-serif text-2xl font-bold text-[#B98552] block">01</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18] pt-1">Explore</p>
+          <p class="text-[11px] text-[#54382B]/70">Select machines and recipe blends</p>
+        </div>
+        <div class="p-4 bg-white rounded-2xl border border-[#E9DFD1]">
+          <span class="font-serif text-2xl font-bold text-[#B98552] block">02</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18] pt-1">Trial</p>
+          <p class="text-[11px] text-[#54382B]/70">Test on-site demonstration</p>
+        </div>
+        <div class="p-4 bg-white rounded-2xl border border-[#E9DFD1]">
+          <span class="font-serif text-2xl font-bold text-[#B98552] block">03</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18] pt-1">Install</p>
+          <p class="text-[11px] text-[#54382B]/70">Quick delivery and setup</p>
+        </div>
+        <div class="p-4 bg-white rounded-2xl border border-[#E9DFD1]">
+          <span class="font-serif text-2xl font-bold text-[#B98552] block">04</span>
+          <p class="font-bold text-xs sm:text-sm text-[#2B1D18] pt-1">Enjoy</p>
+          <p class="text-[11px] text-[#54382B]/70">Regular refills & ongoing service</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION: CONTACT & ENQUIRY -->
+  <section id="contact" class="py-16 sm:py-24 px-4 sm:px-8 bg-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-12 gap-10 items-start">
+      
+      <!-- Contact Details -->
+      <div class="md:col-span-5 space-y-6">
+        <div class="space-y-2">
+          <span class="text-xs font-bold tracking-widest uppercase text-[#B98552]">Get in Touch</span>
+          <h2 class="font-serif text-3xl font-bold text-[#2B1D18]">Connect with R BREW</h2>
+          <p class="text-xs sm:text-sm text-[#54382B]">Request a machine trial or bulk supply quote today.</p>
+        </div>
+
+        <div class="space-y-3.5 text-xs sm:text-sm text-[#54382B] pt-2">
+          <div class="p-3.5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1]">
+            <p class="text-xs text-[#54382B]/70">Phone & WhatsApp</p>
+            <a href="tel:+918178413159" class="font-bold text-[#2B1D18] text-base hover:text-[#B98552] font-mono">+91 81784 13159</a>
+          </div>
+
+          <div class="p-3.5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1]">
+            <p class="text-xs text-[#54382B]/70">Business Email</p>
+            <a href="mailto:admin@rosretail.co.in" class="font-bold text-[#2B1D18] text-base hover:text-[#B98552] font-mono">admin@rosretail.co.in</a>
+          </div>
+
+          <div class="p-3.5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1]">
+            <p class="text-xs text-[#54382B]/70">Office Address</p>
+            <p class="font-bold text-[#2B1D18]">Neb Sarai, New Delhi - 110068</p>
+          </div>
+
+          <div class="p-3.5 rounded-2xl bg-[#FAF7F2] border border-[#E9DFD1]">
+            <p class="text-xs text-[#54382B]/70">Social</p>
+            <p class="font-bold text-[#2B1D18]">
+              <a href="https://instagram.com/coffeerbrew" target="_blank" class="hover:text-[#B98552]">@coffeerbrew</a> • 
+              <span>Facebook: R BREW Coffee</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Simple Form -->
+      <div class="md:col-span-7 bg-[#FAF7F2] p-6 sm:p-8 rounded-3xl border border-[#E9DFD1]">
+        <h3 class="font-serif text-xl font-bold text-[#2B1D18] mb-4">Send an Enquiry</h3>
+        <form onsubmit="handleForm(event)" class="space-y-3.5">
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-[#2B1D18] mb-1">Name *</label>
+              <input type="text" required placeholder="Your Name" class="w-full bg-white border border-[#E9DFD1] rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B98552]">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-[#2B1D18] mb-1">Company *</label>
+              <input type="text" required placeholder="Company Name" class="w-full bg-white border border-[#E9DFD1] rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B98552]">
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-[#2B1D18] mb-1">Phone *</label>
+              <input type="tel" required placeholder="+91 81784 13159" class="w-full bg-white border border-[#E9DFD1] rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B98552]">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-[#2B1D18] mb-1">Email *</label>
+              <input type="email" required placeholder="name@company.com" class="w-full bg-white border border-[#E9DFD1] rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B98552]">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-[#2B1D18] mb-1">Interested In</label>
+            <select class="w-full bg-white border border-[#E9DFD1] rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B98552]">
+              <option>Fresh Milk Vending Machine Placement</option>
+              <option>Multi-Option Coffee Machine Setup</option>
+              <option>Filter Coffee Products (Gold / Platinum / Premium)</option>
+              <option>Chai Premixes (100g Packs)</option>
+              <option>Instant Coffee / Tea / Soup Premix</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-[#2B1D18] mb-1">Message / Requirements</label>
+            <textarea rows="3" placeholder="Tell us about daily cup requirements or location..." class="w-full bg-white border border-[#E9DFD1] rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B98552]"></textarea>
+          </div>
+
+          <button type="submit" class="w-full bg-[#B98552] hover:bg-[#a67443] text-white font-semibold text-xs py-3 rounded-xl shadow transition-all">
+            Submit Enquiry
+          </button>
+          
+          <p id="msg-note" class="text-xs text-green-700 text-center font-semibold hidden pt-1">
+            Thank you! We will get in touch shortly.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#2B1D18] text-[#F7F3EC] py-10 px-4 sm:px-8 border-t border-[#3b2923]">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#E9DFD1]/70">
+      <div class="flex items-center gap-3">
+        <img src="images/logo_gold.jpg" alt="R BREW Logo" class="h-8 w-auto rounded object-cover">
+        <span class="font-serif font-bold text-white text-base">R BREW COFFEE</span>
+        <span class="hidden sm:inline">| “BREW BETTER. LIVE BETTER.”</span>
+      </div>
+      <div>
+        <p>© 2026 R BREW Coffee. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/918178413159?text=Hello%20R%20BREW,%20I%20would%20like%20to%20enquire%20about%20your%20coffee%20solutions." target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#20ba59] text-white p-3.5 rounded-full shadow-2xl hover:scale-105 transition-all flex items-center justify-center border-2 border-white" title="Chat on WhatsApp">
+    <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+  </a>
+
+  <script>
+    function handleForm(e) {
+      e.preventDefault();
+      const n = document.getElementById('msg-note');
+      if (n) {
+        n.classList.remove('hidden');
+        setTimeout(() => {
+          e.target.reset();
+        }, 1500);
+      }
+    }
+  </script>
+</body>
+</html>

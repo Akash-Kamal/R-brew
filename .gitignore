@@ -1,0 +1,6 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Quaine assets excluded from R BREW project
+assets/extracted_assets/quaine/
